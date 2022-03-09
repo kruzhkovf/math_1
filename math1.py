@@ -9,7 +9,8 @@ y = np.sin(x)
 
 # рисование графики функции с помощью функции plot
 
-plt.plot(x, y)
+fig, ax = plt.subplots()
+ax.plot(x, y)
 
 plt.show()
 
